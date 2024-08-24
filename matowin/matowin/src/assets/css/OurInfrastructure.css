@@ -1,0 +1,32 @@
+.matowin_infra{
+    background-color: #FFBD2B;
+    width: 80vw;
+    border-radius: 8px;
+    position: absolute;
+    top: -17px;
+}
+
+.matowin_infra h1{
+    color: #2A2A2A;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.matowin_infra marquee{
+    color: #2A2A2A;
+    font-size: 30px;
+}
+
+@media screen and (max-width:800px) {
+    .matowin_infra h1{
+        color: #2A2A2A;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
+    }    
+
+    .matowin_infra marquee{
+        color: #2A2A2A;
+        font-size: 20px;
+    }
+}

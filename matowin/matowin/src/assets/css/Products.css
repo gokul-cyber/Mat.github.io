@@ -1,0 +1,59 @@
+.matowin_products{
+    padding: 20px 0;
+}
+
+.matowin_products h1{
+    text-align: center;
+}
+
+.service{
+    color: #FFBD2B;
+}
+
+.products_lists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 40px 100px;
+}
+
+.product{
+    border: 1px solid #2A2A2A;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product img{
+    border-radius: 8px;
+    height: 300px;
+    width: 380px;
+}
+
+.product_name{
+    background-color: #2A2A2A;
+    color: #FFBD2B;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.product:hover{
+    box-shadow: 6px 6px #FFBD2B;
+}
+
+@media screen and (max-width: 768px) {
+    .product img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .products_lists{
+        margin: 0 20px;
+    }
+
+    .product:hover{
+        box-shadow: 6px 6px #FFBD2B;
+    }
+}

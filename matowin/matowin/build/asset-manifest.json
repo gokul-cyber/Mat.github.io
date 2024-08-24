@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9659ba41.css",
+    "main.js": "/static/js/main.26969786.js",
+    "static/media/about.png": "/static/media/about.b0e4f60e7585ea8481e1.png",
+    "static/media/alloy.jpg": "/static/media/alloy.bd8fc77cfbd7d724a645.jpg",
+    "static/media/cotter.jpg": "/static/media/cotter.2e8d0f41c26802e5a977.jpg",
+    "static/media/arches.jpg": "/static/media/arches.f72b83919f4fae081a6b.jpg",
+    "static/media/castings.jpg": "/static/media/castings.25ffc10494ca1fcceb5d.jpg",
+    "static/media/Bushes.jpg": "/static/media/Bushes.eca17ca618874d762c4d.jpg",
+    "static/media/home_img.jpeg": "/static/media/home_img.f042f2fd12eab60aa362.jpeg",
+    "static/media/logo.png": "/static/media/logo.c6804d3d9532c9aede43.png",
+    "index.html": "/index.html",
+    "main.9659ba41.css.map": "/static/css/main.9659ba41.css.map",
+    "main.26969786.js.map": "/static/js/main.26969786.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9659ba41.css",
+    "static/js/main.26969786.js"
+  ]
+}

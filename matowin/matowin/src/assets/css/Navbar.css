@@ -1,0 +1,52 @@
+.matowin_navbar ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+.matowin_navbar ul li a{
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.matowin_nav_icons{
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    .matowin_nav_icons{
+        display: block;
+    }
+
+    .matowin_navbar ul{
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        color: #fff;
+        background-color: #2A2A2A;
+        right: 0;
+        z-index: 1;
+    }
+
+    .nav_active{
+        background-color: #2A2A2A;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        transition: 1s right !important;
+        padding: 0 20px;
+    }
+
+    .nav_inactive{
+        position: absolute !important;
+        right: 10000px !important;
+        transition: 2s right !important;
+        width: 100% !important;
+    }
+
+    .matowin_navbar ul li a{
+        color: #fff;
+        margin: 5px 0 !important;
+    }
+}

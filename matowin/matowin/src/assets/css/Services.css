@@ -1,0 +1,56 @@
+.matowin_services{
+    padding: 20px 0;
+    background-color: #F1F1F1;
+}
+
+.matowin_services h1{
+    text-align: center;
+}
+
+.matowin_series{
+    display: flex;
+    margin: 40px 100px;
+}
+
+.services_heading{
+    margin-right: 10px;
+}
+
+.services_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.services_heading{
+    height: 100px;
+    width: 100px;
+    background-color: #FFBD2B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service{
+    color: #FFBD2B;
+}
+
+@media screen and (max-width: 768px) {
+    .matowin_series{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .services_desc p{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .services_desc h2{
+        text-align: center;
+    }
+}
